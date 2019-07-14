@@ -19,7 +19,7 @@ public class UserServiceImpl implements UserService {
 
         Maps.newConcurrentMap();
         User user = new User();
-        user.setId("1");
+        user.setId(Long.parseLong("1"));
         user.setAddress("湖北随州");
         user.setSex("男");
         user.setUsername("yangkai");
