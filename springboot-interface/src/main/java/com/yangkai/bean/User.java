@@ -7,17 +7,17 @@ import java.io.Serializable;
 public class User implements Serializable {
 
 
-    private String id;
+    private Long id;
     private String username;
 
     private String sex;
     private String address;
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
