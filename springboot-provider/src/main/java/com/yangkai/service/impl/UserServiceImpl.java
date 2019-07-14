@@ -5,14 +5,11 @@ import com.google.common.collect.Maps;
 import com.yangkai.bean.User;
 import com.yangkai.service.UserService;
 import org.apache.dubbo.config.annotation.Service;
-import org.slf4j.*;
 
 import java.util.List;
 
 @Service
 public class UserServiceImpl implements UserService {
-
-    private final Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
 
     @Override
     public List<User> getAllUser() {
